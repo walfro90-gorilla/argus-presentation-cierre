@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Hero = () => {
+function Hero() {
   return (
     <section>
-      <h1>Hero Section</h1>
+      <h1>Welcome to Argus Presentation</h1>
     </section>
   );
-};
+}
 
 export default Hero;

@@ -1,6 +1,8 @@
-# Argus Presentation Cierre
+# Argus Presentation
 
-Para ejecutar el proyecto, sigue estos pasos:
+## Getting Started
 
-1. Instala las dependencias con `npm install`
-2. Inicia el proyecto con `npm run dev`
+1. Clone the repository
+2. Run `npm install` to install dependencies
+3. Run `npm run build` to build the project
+4. Run `npm run dev` to start the development server

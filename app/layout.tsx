@@ -1,15 +1,14 @@
 import React from 'react';
-import Head from 'next/head';
 
-const Layout = ({ children }) => {
+function RootLayout({ children }) {
   return (
-    <>
-      <Head>
-        <title>Argus Presentation Cierre</title>
-      </Head>
-      {children}
-    </>
+    <html>
+      <head>
+        <title>Argus Presentation</title>
+      </head>
+      <body>{children}</body>
+    </html>
   );
-};
+}
 
-export default Layout;
+export default RootLayout;
