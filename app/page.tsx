@@ -1,16 +1,7 @@
-import React from 'react';
-import Navbar from '../components/Navbar';
-import Hero from '../components/Hero';
-import Footer from '../components/Footer';
+import type { NextPage } from 'next';
 
-function HomePage() {
-  return (
-    <>
-      <Navbar />
-      <Hero />
-      <Footer />
-    </>
-  );
-}
+const HomePage: NextPage = () => {
+  return <div>Welcome to Argus</div>;
+};
 
 export default HomePage;
